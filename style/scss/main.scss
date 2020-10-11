@@ -304,8 +304,9 @@ body {
   padding-left: 20px;
   border-radius: 5px;
   border: 1px solid $color-dark-blue;
-  font-size: 16px;
   line-height: 22px;
+  color: rgba(47, 58, 79, 0.5);
+  font-size: 16px;
 }
 
 .request__inp-item--wrapper {
@@ -446,6 +447,7 @@ html {
 }
 
 .request__inp-item--wrapper-valid {
+
   &::after {
     color: #ED6747;
     background-color:  #ED6747;
