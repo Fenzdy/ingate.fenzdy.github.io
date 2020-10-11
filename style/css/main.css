@@ -360,6 +360,42 @@ body {
   display: none;
 }
 
+.baner {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transform: rotate(39.64deg);
+  position: absolute;
+  top: 152px;
+  right: -133px;
+  width: 731px;
+}
+
+.baner_text {
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #2F3A4F;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
 .Titles {
   font-weight: bold;
   font-size: 38px;
