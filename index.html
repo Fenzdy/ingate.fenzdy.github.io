@@ -7,11 +7,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.6/css/intlTelInput.css">
   <link rel="stylesheet" href="style/css/main.css">
-  
 
 </head>
 <body>
-  
   <header class="header">
     <div class="container-md">
         <div class="header__contact d-flex flex-wrap flex-column flex-sm-row justify-content-sm-center align-items-center">
@@ -83,7 +81,7 @@
         <p class=" d-flex jusnt-md-start justify-content-center pb-3 text-center text-md-left col-md-5">Мы создали этот курс в виде воронки продаж, разложив каналы и инструменты по этапам:</p>
         <div class="about__lesson d-flex justify-content-md-between justify-content-center flex-wrap">
             <div class="about__data-list d-flex flex-column col-lg-6">
-              <a href="" class="about__data-list-item text-center mb-2 mb-md-4 tab-1 te1 ">
+              <a href="" class="about__data-list-item text-center mb-2 mb-md-4 tab-1 te1 active-course">
                 <p class="pt-2">БЛОК 1: <b>Работоспособность сайта</b></p>
                 <br>
                 <span class="data pb-3">10.10.2019 в 12:00 (МСК)</span>
@@ -193,7 +191,7 @@
                     <b>Фамилия Имя</b><br>
                     Performance based marketologist Ingate
                   </p>
-                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2">
+                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2 ">
                   <div class="about__speaker-info hide pl-sm-3 pt-sm-3 col-12 col-sm-8 col-md-5 col-lg-9 col-xl-8">
                     <p class="text-uppercase"><b>об эксперте</b></p>
                     <p class="about__speaker-info-desc">Спикер имеет опыт работы в performance-
@@ -235,7 +233,7 @@
                     <b>Фамилия Имя</b><br>
                     Performance based marketologist Ingate
                   </p>
-                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2">
+                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2 ">
                   <div class="about__speaker-info hide pl-sm-3 pt-sm-3 col-12 col-sm-8 col-md-5 col-lg-9 col-xl-8">
                     <p class="text-uppercase"><b>об эксперте</b></p>
                     <p class="about__speaker-info-desc">Спикер имеет опыт работы в performance-
@@ -277,7 +275,7 @@
                     <b>Фамилия Имя</b><br>
                     Performance based marketologist Ingate
                   </p>
-                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2">
+                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2 ">
                   <div class="about__speaker-info hide pl-sm-3 pt-sm-3 col-12 col-sm-8 col-md-5 col-lg-9 col-xl-8">
                     <p class="text-uppercase"><b>об эксперте</b></p>
                     <p class="about__speaker-info-desc">Спикер имеет опыт работы в performance-
@@ -319,7 +317,7 @@
                     <b>Фамилия Имя</b><br>
                     Performance based marketologist Ingate
                   </p>
-                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2">
+                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2 ">
                   <div class="about__speaker-info hide pl-sm-3 pt-sm-3 col-12 col-sm-8 col-md-5 col-lg-9 col-xl-8">
                     <p class="text-uppercase"><b>об эксперте</b></p>
                     <p class="about__speaker-info-desc">Спикер имеет опыт работы в performance-
@@ -361,7 +359,7 @@
                     <b>Фамилия Имя</b><br>
                     Performance based marketologist Ingate
                   </p>
-                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2">
+                  <img src="img/mini-aika.png" alt="I" class="speak-info align-self-center pt-4 ml-sm-2 ">
                   <div class="about__speaker-info hide pl-sm-3 pt-sm-3 col-12 col-sm-8 col-md-5 col-lg-9 col-xl-8">
                     <p class="text-uppercase"><b>об эксперте</b></p>
                     <p class="about__speaker-info-desc">Спикер имеет опыт работы в performance-
@@ -387,14 +385,14 @@
     <div class="container-md">
       <h1 class="Titles">Оставить заявку</h1>
       <p class="pt-3 pb-2 pb-lg-5">Оставляя заявку, ты получаешь запись первого digital интенсива Ingate из 6-ти модулей и все материалы спикеров (чек-листы, презентации, полезные ссылки)</p>
-      <form action="" class="request__form d-flex flex-column flex-lg-row flex-lg-wrap justify-content-lg-between">
+      <form id="form" onsubmit="return false" class="request__form d-flex flex-column flex-lg-row flex-lg-wrap justify-content-lg-between">
         <div class="request__inp col-12 col-lg-8 d-flex flex-column flex-lg-row flex-lg-wrap justify-content-lg-between">
-          <div class="request__inp-item--wrapper col-12 col-lg-6 pr-lg-3"><input class="request__inp-item mb-2 mb-md-4 col" type="text" placeholder="Имя и фамилия"></div>
-          <div class="request__inp-item--wrapper col-12 col-lg-6 pr-lg-3"><input class="request__inp-item mb-2 mb-md-4 col" type="text" placeholder="Промокод"></div>
-          <div class="request__inp-item--wrapper col-12 col-lg-6 pr-lg-3"><input class="request__inp-item mb-2 mb-md-4 col" type="text" placeholder="Email"></div>
-          <div class="request__inp-item--wrapper col-12 col-lg-6 pr-lg-3"><input class="request__inp-item intl-tel-input mb-2 mb-md-4 col intl-tel-input" type="tel" placeholder="Телефон" id="phone"></div>
+          <div class="request__inp-item--wrapper chek-valid-wrap col-12 col-lg-6 pr-lg-3"><span class="no-valid-form hide" id="erroreMess-name">обязательное поле</span><input class="request__inp-item chek-valid mb-4 col" type="text" placeholder="Имя и фамилия" name="name" id="name"></div>
+          <div class="request__inp-item--wrapper col-12 col-lg-6 pr-lg-3"><input class="request__inp-item mb-4 col " type="text" placeholder="Промокод" name="promo" id="promo"></div>
+          <div class="request__inp-item--wrapper chek-valid-wrap col-12 col-lg-6 pr-lg-3"><span class="no-valid-form hide" id="erroreMess-mail">обязательное поле</span><input class="request__inp-item mb-4 col chek-valid" type="email" placeholder="Email" name="email" id="email"></div>
+          <div class="request__inp-item--wrapper chek-valid-wrap col-12 col-lg-6 pr-lg-3"><span class="no-valid-form hide" id="erroreMess-phone">обязательное поле</span><input class="request__inp-item intl-tel-input mb-4 col chek-valid" type="tel" placeholder="Телефон" id="phone" name="phone"></div>
         </div>
-        <div class="col-12 col-lg-4 pt-4 pt-lg-0"><a href="" class="btn pt-3 pb-3 pl-4 pr-sm-2 pr-4 request__button col-12">Оставить заявку <span class="pl-sm-5 pr-sm-2">&#x2192;</span></a></div>
+        <div class="col-12 col-lg-4 pt-4 pt-lg-0"><button type="submit" id="formGo" class="btn pt-3 pb-3 pl-4 pr-sm-2 pr-4 request__button col-12">Оставить заявку <span class="pl-sm-5 pr-sm-2">&#x2192;</span></button></div>
       </form>
     </div>
   </section>
@@ -410,7 +408,7 @@
             <a href="mailto:info@ingate.ru" class="footer__mail">info@ingate.ru</a>
           </div>
         </div>
-        <div class="social col-12 col-sm-4 col-md-3 col-lg-3 d-flex flex-column align-items-center flex-sm-row justify-content-sm-between m-sm-auto m-lg-0 pt-sm-2">
+        <div class="social col-9 m-auto m-sm-0 col-sm-4 col-md-3 col-lg-3 d-flex  align-items-center justify-content-between m-sm-auto m-lg-0 pt-sm1">
           <a href="#" class="social__item mb-2 mb-sm-2 pl-sm-2 facebook" target="_blank" rel="noopener noreferrer"></a>
           <a href="#" class="social__item mb-2 mb-sm-2 pl-sm-2 vk" target="_blank" rel="noopener noreferrer"></a>
           <a href="#" class="social__item mb-2 mb-sm-2 pl-sm-2 inst" target="_blank" rel="noopener noreferrer"></a>
@@ -423,10 +421,10 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.6/js/intlTelInput.min.js"></script>
-
-
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="script/main.js"></script>
 </body>
 </html>
+
+
+
