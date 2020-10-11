@@ -15,6 +15,7 @@ body {
 }
 
 .header {
+  position: relative;
   background-color: #27344F;
   background-image: url(../../img/headerBg.jpg);
   background-repeat: no-repeat;
